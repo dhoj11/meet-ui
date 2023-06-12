@@ -9,7 +9,6 @@ import {Provider} from "react-redux";
 function App() {
   return (
     <>
-
         <Frame>
             <SinglePage>
                 <Provider store={store}>
