@@ -1,0 +1,11 @@
+.container {
+    display: grid;
+    grid-template-columns: 2fr 9fr;
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr; /* 하나의 컬럼으로 변경 */
+    }
+}
